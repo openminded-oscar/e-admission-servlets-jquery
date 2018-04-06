@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style>
+div {
+    color: black;
+    font-family: verdana;
+    font-size: 160%;
+}
+
+input{
+    color:black;
+    font: 1em/1.25em Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+	<h1>Welcome on Registration form!</h1>
+	<br>
+	<div>Fill in the fields to register!</div>
+	<div>&nbsp;</div>
+	<form action="register" method="post" target="_blank">
+		<div>
+			Login* <input name="login" required>
+		</div>
+		<div>
+			Password* <input type="password" name="password" required>
+		</div>
+		<div>
+			First name* <input name="fname" required>
+		</div>
+		<div>
+			Last name*<input name="lname" required>
+		</div>
+		<div>
+			Middle name <input name="mname">
+		</div>
+		<div>
+			Gender* <input type="radio" name="gender" value="male" required> <label>male</label>
+			<input type="radio" name="gender" value="female"> <label>female</label>
+		</div>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
